@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Video Include, Merge y viewStub-->
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/txtLaunch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/btnA"
+        android:layout_toEndOf="@+id/btnA" />
+
+    <Button
+        android:id="@+id/btnC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/btnB"
+        android:layout_toEndOf="@+id/btnB" />
+
+    <Button
+        android:id="@+id/btnD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="D"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/btnC"
+        android:layout_toEndOf="@+id/btnC" />
+</merge>
